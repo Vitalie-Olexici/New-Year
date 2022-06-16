@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Josefin+Sans:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./foto.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.countdown_conteiner {
+    display: flex;
+}
+
+.big_text {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1;
+    margin: 0 25px;
+}
+
+.countdown-el {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.countdown-el span {
+    font-size: 20px;
+}
